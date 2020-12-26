@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".flip").click(function(){
+    var a=this.id+this.id;
+    $("#"+a).show("slow");
+  });
+  });
+
+  $(document).ready(function(){
+  $(".panel").click(function(){
+    var a=this.id
+    $("#"+a).hide("slow");
+  });
+  });
+
+  $( document ).ready(function() {
+     $(".panel").hide()
+});
+
+
+</script>
+<style> 
+.panel, .flip {
+  padding: 5px;
+  text-align: left;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.panel {
+  padding: auto;
+  
+}
+
+p{
+font-family: cursive;
+font-size: 14px;
+
+    color: white;
+}
+a{
+    
+    color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+  <div class="row" style="background-color:black; height: 60px;">
+     <div class=col-7>
+    
+    <img src="twitter1.jpg" alt="" style="height:2%; width: 2%; margin-top: 10px; ">
+       
+            <a href="">
+                Twitter
+            </a>
+        ..
+            <img src="facebook.jpg" alt="" style="height:2%; width: 2% ">
+            
+            <a href="">
+                Facebook
+            </a>
+            ..
+            <img src="isntagram.jpg" alt="" style="height2%; width: 2% ">
+            
+            <a href="">
+                Instagram
+            </a>
+            
+        </div>
+    </div>
+    <br>
+    <div style="background-color:rgb(160, 155, 145); font-family: cursive; margin-left: 15px; font-size: 20px; height: 40px; text-align: center;">
+    
+<h5> Koronaviruse Yönelik Sıkça Sorulan Sorular </h5>
+</div>
+
+<br>
+<div  class ="flip" id="f1">1.Yeni koronavirus nedir?</div>
+<div  class ="panel" id="f1f1">Yeni Koronavirüs (COVID-19), ilk olarak Çin’in Vuhan Eyaleti’nde Aralık ayının sonlarında solunum yolu belirtileri (ateş, öksürük, nefes darlığı) gelişen bir grup hastada yapılan araştırmalar sonucunda 13 Ocak 2020’de tanımlanan bir virüstür. Salgın başlangıçta bu bölgedeki deniz ürünleri ve hayvan pazarında bulunanlarda tespit edilmiştir. Daha sonra insandan insana bulaşarak Vuhan başta olmak üzere Hubei eyaletindeki diğer şehirlere ve Çin Halk Cumhuriyeti’nin diğer eyaletlerine ve diğer dünya ülkelerine yayılmıştır.
+    Coronavirüsler, hayvanlarda veya insanlarda hastalığa neden olabilecek büyük bir virüs ailesidir. İnsanlarda, birkaç koronavirüsün soğuk algınlığından Orta Doğu Solunum Sendromu (MERS) ve Şiddetli Akut Solunum Sendromu (SARS) gibi daha şiddetli hastalıklara kadar solunum yolu enfeksiyonlarına neden olduğu bilinmektedir. Koronavirüs hastalığına COVID-19 neden olur.</div>
+<br>
+
+<div  class ="flip" id="f2">2.Yeni koronavirus enfeksiyonu tanısı nasıl konur?</div>
+<div class ="panel" id="f2f2">Yeni Koronavirüs tanısı için gerekli moleküler testler ülkemizde mevcuttur. Tanı testi sadece Halk Sağlığı Genel Müdürlüğü Ulusal Viroloji Referans Laboratuvarında ve belirlenmiş Halk Sağlığı Laboratuvarlarında yapılmaktadır.</div>
+<br>
+<div class ="flip" id="f3">3.Yeni koronavirus nasıl bulaşır?</div>
+<div  class ="panel" id="f3f3">Hasta bireylerin öksürmeleri aksırmaları ile ortama saçılan damlacıkların solunması ile bulaşır. Hastaların solunum parçacıkları ile kirlenmiş yüzeylere dokunulduktan sonra ellerin yıkanmadan yüz, göz, burun veya ağıza götürülmesi ile de virüs alınabilir. Kirli ellerle göz, burun veya ağıza temas etmek risklidir..</div>
+<br>
+<div class ="flip" id="f4">4.Yeni koronavirüs kimleri daha fazla etkiler?</div>
+<div  class ="panel" id="f4f4">Elde edilen veriler doğrultusunda ileri yaş ve eşlik eden hastalığı (astım, diyabet, kalp hastalığı gibi) olanlarda virüsün ağır hastalık oluşturma riski daha yüksektir. Bugünkü verilerle hastalığın %10-15 olguda ağır seyrettiği, yaklaşık %2 olguda da ölümle sonuçlandığı bilinmektedir.</div>
+<br>
+<div class ="flip" id="f5">5.El hijyeni nasıl sağlanır?</div>
+<div  class ="panel" id="f5f5">Ellerde gözle görülür kirlenme varsa en az 20 saniye bol su ve sabunla yıkanır ve kağıt havlu ile kurulanır. Gözle görülür kirlenme yoksa su ve sabun yerine alkol bazlı el antiseptiği ile ovalanarak da el hijyeni sağlanabilir.</div>
+<br>
+<div class ="flip" id="f6">6.Hastaya yapılan ziyaretler nasıl olmalıdır?</div>
+<div  class ="panel" id="f6f6">Hasta ziyareti yasaklanmalıdır. Hasta odasına girişler sınırlandırılmalı, sadece hastanın bakımından sorumlu olan ve girişi gerekli olan personelin odaya girişine izin verilmelidir. Refakatçi gerekli ise tek kişi ile kısıtlanmalıdır. Refakatçilerin damlacık önlemlerine uygun KKE giymeleri sağlanmalıdır. Refakatçilerin kaydı tutulmalı ve COVID-19 kesin tanılı hasta ile son temasından sonra 14 gün boyunca COVID-19 semptomları açısından izlenmesi önerilmelidir.</div>
+<br>
+<div class ="flip" id="f7">7.Sirke kullanımı yeni koronovirus enfeksiyonunu engeller mi?</div>
+<div  class ="panel" id="f7f7">Hayır. Sirke kullanımının Yeni Koronavirüs (COVID-19) enfeksiyonundan korunmada bir faydası yoktur..</div>
+<br>
+<div class ="flip" id="f8">8.Yeni koronavirus enfeksiyonunu engellemek yada tedavi etmek için kullanılabilecek virüse karşı etkili ilaç var mıdır?</div>
+<div  class ="panel" id="f8f8">Hastalığın virüse etkili bir tedavisi yoktur. Hastanın genel durumuna göre gerekli destek tedavisi uygulanmaktadır. Bazı ilaçların virüs üzerindeki etkinliği araştırılmaktadır. Ancak şu an için virüse etkili bir ilaç yoktur.</div>
+<br>
+<div class ="flip" id="f10">9.Genel enfeksiyondan korunma yöntemleri nelerdir?</div>
+<div  class ="panel" id="f10f10">El temizliğine dikkat edilmelidir. Eller en az 20 saniye boyunca sabun ve suyla yıkanmalı, sabun ve suyun olmadığı durumlarda alkol bazlı el antiseptikleri kullanılmalıdır. Antiseptik veya antibakteriyel içeren sabun kullanmaya gerek yoktur, normal sabun yeterlidir.
+
+    Öksürme veya hapşırma sırasında burun ve ağızın tek kullanımlık kağıt mendil ile örtülmesi, kağıt mendilin bulunmadığı durumlarda ise dirsek içinin kullanılması, mümkünse kalabalık yerlere girilmemesi önerilir</div>
+<br>
+<div class ="flip" id="f11">10.Yeni koronavirüs hastalığı ani ölümelere sebep olur mu?</div>
+<div  class ="panel" id="f11f11">Hastalanan kişilerle ilgili yayımlanmış verilere göre hastalık nispeten yavaş bir seyir göstermektedir. İlk birkaç gün daha hafif şikayetler (ateş, boğaz ağrısı, halsizlik gibi) görülmekte sonrasında öksürük, nefes darlığı gibi belirtiler eklenmektedir. Hastalar genellikle 7 günden sonra hastaneye başvuracak kadar ağırlaşmaktadır. Dolayısı ile sosyal medyada yer alan, birden bire yere düşüp hastalanan veya ölen hastalarla ilgili videolar gerçeği yansıtmamaktadır.</div>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
+    
+
+</body>
+</html>
